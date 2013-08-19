@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tunes.iml" filepath="$PROJECT_DIR$/tunes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tunes-grailsPlugins.iml" filepath="$PROJECT_DIR$/tunes-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
