@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta name="layout" content="tunes">
+    <meta name="layout" content="main">
     <title>gTunes Welcome</title>
     <g:javascript library="jquery"></g:javascript>
 </head>
@@ -42,5 +42,6 @@
     </div>
 
 </g:if>
+
 </body>
 </html>

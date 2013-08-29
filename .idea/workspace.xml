@@ -2,11 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="027633ef-2efa-4c0c-b276-176d4bbd9f82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/tunes.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/tunes/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/tunes/UserController.groovy" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\ApplicationResources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\ApplicationResources$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\ApplicationResources.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BootStrap$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BootStrap$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BootStrap.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BuildConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BuildConfig$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BuildConfig$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BuildConfig$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BuildConfig$_run_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\Config$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\Config$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\Config$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\Config$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\Config.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3_closure4_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3_closure5_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3_closure6_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource$_run_closure3_closure6_closure9_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\UrlMappings$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\UrlMappings$__clinit__closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\UrlMappings$__clinit__closure1_closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\UrlMappings.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\application.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\Album$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\Album.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\AlbumController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\Artist$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\Artist.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\ArtistController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\LoginCommand$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\LoginCommand$__clinit__closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\LoginCommand$__clinit__closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\LoginCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\Song$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\Song.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\SongController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\StoreController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\User$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\User.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\com\tunes\UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\resources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\grails\tunes\target\classes\resources.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/store/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/store/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tunes-grailsPlugins.iml" afterPath="$PROJECT_DIR$/tunes-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tunes.iws" />
@@ -20,9 +71,10 @@
     <file path="/Dummy.txt" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1377788542926" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1376938801108" ignored="false" />
     <file path="/index.gsp" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1377012601152" ignored="false" />
-    <file path="/main.gsp" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1376938365493" ignored="false" />
+    <file path="/main.gsp" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1377808928262" ignored="false" />
     <file path="/register.gsp" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1377012722097" ignored="false" />
     <file path="/UserController.groovy" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1377012746525" ignored="false" />
+    <file path="/gtunes.gsp" changelist="027633ef-2efa-4c0c-b276-176d4bbd9f82" time="1377808250806" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,43 +136,25 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/store/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="44" column="61" selection-start="1961" selection-end="1961" vertical-scroll-proportion="-8.489796">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tunes.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/tunes.gsp">
+      <file leaf-file-name="main.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="67" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
+            <state line="34" column="47" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.03256705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tunes/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/user/register.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="94" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="22" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
+            <state line="18" column="65" selection-start="458" selection-end="458" vertical-scroll-proportion="-13.304348">
               <folding />
             </state>
           </provider>
@@ -151,14 +185,15 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/tunes/Song.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/tunes/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/tunes/Artist.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/web-app/css/main.css" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/oriMain.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/tunes.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/store/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/user/register.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/tunes/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/gtunes.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/store/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
       </list>
     </option>
   </component>
@@ -304,7 +339,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -315,7 +350,8 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32575756" sideWeight="0.6717949" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32575756" sideWeight="0.67291313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -328,7 +364,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -389,13 +424,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tunes/AlbumController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="25" selection-end="25" vertical-scroll-proportion="0.063432835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ImportItunesLibrary.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="64" selection-start="5657" selection-end="5657" vertical-scroll-proportion="0.8131868">
@@ -452,7 +480,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tunes/StoreController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.4782609" />
+        <state line="2" column="6" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.4782609">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
@@ -462,47 +492,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="22" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
+        <state line="122" column="62" selection-start="3277" selection-end="3277" vertical-scroll-proportion="0.98396796">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/gtunes.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="0" selection-end="1613" vertical-scroll-proportion="0.4769539" />
+        <state line="21" column="57" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.68390805">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+    <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="62" selection-start="3277" selection-end="3277" vertical-scroll-proportion="0.98396796" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/store/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="98" column="22" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.031021899">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/register.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="94" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/tunes.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="67" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
+        <state line="12" column="94" selection-start="384" selection-end="384" vertical-scroll-proportion="0.033203125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tunes/UserController.groovy">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="65" selection-start="458" selection-end="458" vertical-scroll-proportion="-13.304348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/tunes.gsp">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/store/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="61" selection-start="1961" selection-end="1961" vertical-scroll-proportion="-8.489796">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="47" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.03256705">
           <folding />
         </state>
       </provider>
@@ -515,7 +556,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="2138283950" />
-              <option name="pluginDependenciesCrc" value="-1893889532" />
+              <option name="pluginDependenciesCrc" value="-1160854305" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\Erik\.grails\2.2.4\global-plugins" />
