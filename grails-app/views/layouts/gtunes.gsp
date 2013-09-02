@@ -22,6 +22,11 @@
             padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
         }
 
+        .user-nav {
+            display: block;
+            padding-top: 10px;
+        }
+
         .footer {
             bottom: 20px;
             position: absolute;
@@ -44,7 +49,7 @@
                 <ul class="nav">
                     <li class="active"><a href="/tunes/store">Home</a></li>
                     <li><a href="/tunes/store/shop">Shop</a></li>
-                    <!--li><a href="#contact">Contact</a></li-->
+                    <li><a href="#">My Music</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
             </g:if>
@@ -52,18 +57,31 @@
             <g:if test="${!session?.user}">
                 <g:form name="loginForm" url="[controller:'user',action:'login']" class="navbar-form pull-right">
                     <g:textField name="login" required="true" placeholder="Username" class="span2"/>
-                    <g:textField name="password" required="true" placeholder="Password" class="span2"/>
+                    <g:passwordField name="password" required="true" placeholder="Password" class="span2"/>
                     <button type="submit" class="btn btn-info">Sign in</button>
                 </g:form>
             </g:if>
+            <g:else>
+                <div class="user-nav pull-right" style="color: #ffffff">
+                    ${session.user.login}, <g:link controller="user" action="logout">Logout</g:link>
+                </div>
+            </g:else>
         </div>
     </div>
 </div>
 
 <div class="container">
+    <div class="row">
+        <div class="span10 offset1">
+            <div class="page-header">
+                <h2>Your online music store and storage service!</h2>
+                <p>Manage your own library, browse music and purchase new tracks as they become available.</p>
+            </div>
+        </div>
+    </div>
     <!-- Start main -->
     <div class="row">
-        <div class="span12">
+        <div class="span10 offset1">
             <!-- Start body -->
             <g:layoutBody/>
             <!-- ./body -->

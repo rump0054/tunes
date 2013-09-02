@@ -35,4 +35,8 @@ class StoreController {
           top5Artists: Artist.list(max: 5, sort: "dateCreated", order: "desc"),
           genres: genreList.sort() ]
     }
+
+    def showTime() {
+        render "The time is ${new Date()}"
+    }
 }

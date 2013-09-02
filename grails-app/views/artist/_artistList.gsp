@@ -1,7 +1,7 @@
 <!-- artistList.gsp -->
-<ul class="list">
+<ul class="unstyled">
     <g:each in="${artists?}" var="artist">
-        <li class="icon">
+        <li>
             <g:link controller="artist" action="show" id="${artist?.id}">
                 <g:img dir="images/icons" file="artist.png"/>
                 ${artist?.name}

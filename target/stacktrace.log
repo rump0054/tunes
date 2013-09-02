@@ -12285,3 +12285,318 @@ java.lang.RuntimeException: It looks like you are missing some calls to the r:la
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:662)
+2013-09-02 11:35:54,367 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:607)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:153)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:170)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:121)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:107)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:490)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:516)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	... 25 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:243)
+	at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:470)
+	... 31 more
+2013-09-02 11:35:54,370 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:490)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:516)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:607)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:153)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:170)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:121)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:107)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:243)
+	at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:470)
+	... 31 more
+2013-09-02 11:35:54,371 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:243)
+	at org.springframework.beans.BeanWrapperImpl.convertIfNecessary(BeanWrapperImpl.java:470)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:516)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:607)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:153)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:170)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:121)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:107)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2013-09-02 11:35:54,371 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,372 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,372 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,372 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2013-09-02 11:35:54,372 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,373 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,373 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,373 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2013-09-02 11:35:54,373 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,486 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,486 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,486 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2013-09-02 11:35:54,487 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,487 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,487 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,487 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2013-09-02 11:35:54,487 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,536 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,536 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+2013-09-02 11:35:54,536 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2013-09-02 11:35:54,536 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsEventsPublisher': Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'groovy.util.ConfigObject' to required type 'boolean' for property 'catchFlushExceptions'; nested exception is java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Cannot convert value of type [groovy.util.ConfigObject] to required type [boolean] for property 'catchFlushExceptions': PropertyEditor [org.springframework.beans.propertyeditors.CustomBooleanEditor] returned inappropriate value of type [groovy.util.ConfigObject]
+	... 5 more

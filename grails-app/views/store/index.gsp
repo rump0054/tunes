@@ -3,18 +3,9 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="layout" content="gtunes">
     <title>Welcome</title>
-    <g:javascript library="jquery"></g:javascript>
+    <g:javascript library="jquery"/>
 </head>
 <body>
-<div class="row">
-    <div class="span10 offset1">
-        <div class="page-header">
-            <h2>Your online music store and storage service!</h2>
-            <p>Manage your own library, browse music and purchase new tracks as they become available.</p>
-        </div>
-    </div>
-</div>
-
 <g:if test="${!session?.user}">
     <div class="row">
         <div class="span10 offset1">
@@ -26,6 +17,16 @@
             </div>
         </div>
 </g:if>
+<g:else>
+    <g:link action="showTime" elementId="timeLink">Show the time!</g:link>
+    <div id="time"></div>
+    <r:script>
+        $('#timeLink').click(function() {
+            $('#time').load(this.href);
+            return false;
+        })
+    </r:script>
+</g:else>
 
 </body>
 </html>
