@@ -17,7 +17,8 @@ class AlbumArtTagLib {
         if(artistName && albumTitle) {
             try {
                 def restBuilder = new RestBuilder()
-                def url = "http://itunes.apple.com/search?term=${albumTitle.encodeAsURL()}&media=music&entity=album&attribute=albumTerm"
+                def url = "https://itunes.apple.com/search?term=${albumTitle.encodeAsURL()}" //&media=music&entity=album&attribute=albumTerm"
+                println "REST URL: ${url}"
                 def response = restBuilder.get(url)
                 def json = response.json
                 def records = json.results

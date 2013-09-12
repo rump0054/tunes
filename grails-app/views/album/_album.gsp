@@ -1,6 +1,7 @@
 <div id="album${album.id}" class="well">
     <div class="albumDetails">
         <div class="artistName" style="font-size: 18px; font-weight: bold">${artist.name}</div>
+        <music:albumArt artist="${artist}" album="${album}"/>
         <div class="albumTitle"><em>${album.title}</em></div>
         <div class="albumInfo">
             Genre: ${album.genre ?: 'Other'} <br/>
